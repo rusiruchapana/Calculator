@@ -5,9 +5,94 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="614.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorFormController">
+<AnchorPane prefHeight="614.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorFormController">
    <children>
-      <Button fx:id="btnClr" layoutX="41.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="C">
+      <Button fx:id="btnClr" layoutX="41.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="C">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr1" layoutX="121.0" layoutY="258.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="57.0" text="DEL">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr2" layoutX="211.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="\%">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr11" layoutX="286.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="/">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr3" layoutX="41.0" layoutY="313.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="7">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr12" layoutX="121.0" layoutY="313.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr21" layoutX="211.0" layoutY="313.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr111" layoutX="286.0" layoutY="313.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr31" layoutX="41.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr121" layoutX="121.0" layoutY="371.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="5">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr211" layoutX="211.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="6">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr1111" layoutX="286.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="-">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr311" layoutX="41.0" layoutY="427.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr1211" layoutX="121.0" layoutY="427.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr2111" layoutX="211.0" layoutY="427.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr11111" layoutX="286.0" layoutY="427.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="+">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr21111" layoutX="211.0" layoutY="481.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text=".">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClr111111" layoutX="284.0" layoutY="481.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="=">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
