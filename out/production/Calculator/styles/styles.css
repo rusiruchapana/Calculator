@@ -1,0 +1,5 @@
+#btnClr{
+        -fx-background-radius: 30;
+        -fx-min-width: 60;
+        -fx-min-height: 60;
+}
