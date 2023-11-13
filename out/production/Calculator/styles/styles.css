@@ -1,5 +1,12 @@
-#btnClr{
+#btnClr, #btnDl, #btnMdl, #btnDvd, #btn7, #btn8, #btn9, #btnMltpl, #btn4, #btn5, #btn6, #btnSbstrctn, #btn1, #btn2, #btn3, #btnAdd, #btnDcml, #btnEql{
         -fx-background-radius: 30;
         -fx-min-width: 60;
         -fx-min-height: 60;
+}
+
+
+#btn0{
+        -fx-background-radius: 30;
+        -fx-min-width: 130;
+         -fx-min-height: 60;
 }
