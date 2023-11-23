@@ -28,6 +28,7 @@ public class CalculatorFormController {
     public Button btn0;
     public TextField txtShow;
     public Label txtShowPlace;
+    public Label lblAnswer;
 
 
     public String problem = "0";
@@ -36,6 +37,7 @@ public class CalculatorFormController {
 
     public void btnCOnMouseClicked(MouseEvent mouseEvent) {
             txtShowPlace.setText("");
+            lblAnswer.setText("");
     }
 
 
@@ -120,7 +122,7 @@ public class CalculatorFormController {
 
 
     public void btnEqualOnMouseClicked(MouseEvent mouseEvent) {
-                setProblem("=");
+                answer();
     }
 
 
@@ -134,7 +136,58 @@ public class CalculatorFormController {
                 txtShowPlace.setText(problem);
     }
 
+    public void answer(){
+                int operatorIndex = -1;
+                char operator = ' ';
 
+                for (int i = 0; i < problem.length(); i++) {
+                    char currentChar = problem.charAt(i);
+                    if (currentChar == '+' || currentChar == '-' || currentChar == '*' || currentChar == '/' || currentChar == '%') {
+                        operatorIndex = i;
+                        operator = currentChar;
+                        break;
+                    }
+                }
+
+
+                if (operatorIndex != -1) {
+
+                    String beforeOperator = problem.substring(0, operatorIndex).trim();
+                    String afterOperator = problem.substring(operatorIndex + 1).trim();
+                    int result;
+
+                        int beforeOperatorNew = Integer.parseInt(beforeOperator);
+                        int afterOperatorNew  = Integer.parseInt(afterOperator);
+
+
+                        if(operator ==  '+'){
+                                result = beforeOperatorNew + afterOperatorNew;
+                                lblAnswer.setText(String.valueOf(result));
+
+                        }else if(operator == '-'){
+                            result = beforeOperatorNew - afterOperatorNew;
+                            lblAnswer.setText(String.valueOf(result));
+
+                        }else if(operator == '*'){
+                            result = beforeOperatorNew * afterOperatorNew;
+                            lblAnswer.setText(String.valueOf(result));
+
+                        }else if(operator == '/'){
+                            result = beforeOperatorNew / afterOperatorNew;
+                            lblAnswer.setText(String.valueOf(result));
+
+                        }else if(operator == '%'){
+                            result = beforeOperatorNew % afterOperatorNew;
+                            lblAnswer.setText(String.valueOf(result));
+                        }
+
+
+
+
+
+
+                }
+    }
 
 
 

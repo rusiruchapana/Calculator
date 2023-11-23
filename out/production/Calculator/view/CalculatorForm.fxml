@@ -160,6 +160,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="txtShowPlace" contentDisplay="RIGHT" layoutX="22.0" layoutY="11.0" prefHeight="224.0" prefWidth="249.0" textAlignment="RIGHT" />
+      <Label fx:id="txtShowPlace" contentDisplay="RIGHT" layoutX="22.0" layoutY="11.0" prefHeight="224.0" prefWidth="249.0" style="-fx-border-color: black;" textAlignment="RIGHT" />
+      <Label fx:id="lblAnswer" layoutX="22.0" layoutY="143.0" prefHeight="37.0" prefWidth="249.0" />
    </children>
 </AnchorPane>
