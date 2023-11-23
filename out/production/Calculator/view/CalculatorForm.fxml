@@ -160,7 +160,15 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="txtShowPlace" contentDisplay="RIGHT" layoutX="22.0" layoutY="11.0" prefHeight="224.0" prefWidth="249.0" style="-fx-border-color: black;" textAlignment="RIGHT" />
-      <Label fx:id="lblAnswer" layoutX="22.0" layoutY="143.0" prefHeight="37.0" prefWidth="249.0" />
+      <Label fx:id="txtShowPlace" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="22.0" layoutY="11.0" prefHeight="224.0" prefWidth="249.0" style="-fx-border-color: black;" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAnswer" alignment="CENTER_RIGHT" layoutX="22.0" layoutY="143.0" prefHeight="37.0" prefWidth="249.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
