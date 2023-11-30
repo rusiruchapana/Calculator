@@ -43,6 +43,17 @@ public class CalculatorFormController {
 
     public void btnDeleteOnMouseClicked(MouseEvent mouseEvent) {
 
+            if(problem.length()>0){
+                String modifiedProblem= problem.substring(0 , problem.length()-1);
+                problem = modifiedProblem;
+            }else{
+                txtShowPlace.setText("empty.");
+            }
+
+
+
+
+
     }
 
 
@@ -57,6 +68,7 @@ public class CalculatorFormController {
 
 
     public void btn7OnMouseClicked(MouseEvent mouseEvent) {
+                emptyTextRemove();
                 setProblem("7");
     }
 
@@ -189,6 +201,11 @@ public class CalculatorFormController {
                 }
     }
 
-
+    public void emptyTextRemove(){
+                if(problem instanceof String){
+                    txtShowPlace.setText("");
+                    problem ="";
+                }
+    }
 
 }

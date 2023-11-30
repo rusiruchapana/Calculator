@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="581.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorFormController">
+<AnchorPane prefHeight="581.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorFormController">
    <children>
-      <Button fx:id="btnC" layoutX="19.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#btnCOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="C">
+      <Button fx:id="btnC" layoutX="44.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#btnCOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="C">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -16,7 +16,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnDel" layoutX="91.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#btnDeleteOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="DEL">
+      <Button fx:id="btnDel" layoutX="116.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#btnDeleteOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="DEL">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -24,7 +24,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnModuler" layoutX="157.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#btnModulesOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="\%">
+      <Button fx:id="btnModuler" layoutX="182.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#btnModulesOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="\%">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -32,7 +32,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnDivide" layoutX="223.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#btnDivideOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="/">
+      <Button fx:id="btnDivide" layoutX="248.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#btnDivideOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="/">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -40,7 +40,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn7" layoutX="18.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#btn7OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="7">
+      <Button fx:id="btn7" layoutX="43.0" layoutY="333.0" mnemonicParsing="false" onMouseClicked="#btn7OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="7">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -48,7 +48,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn8" layoutX="90.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#btn8OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="8">
+      <Button fx:id="btn8" layoutX="115.0" layoutY="333.0" mnemonicParsing="false" onMouseClicked="#btn8OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="8">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -56,7 +56,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn9" layoutX="156.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#btn9OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="9">
+      <Button fx:id="btn9" layoutX="181.0" layoutY="333.0" mnemonicParsing="false" onMouseClicked="#btn9OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="9">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -64,7 +64,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnMultiply" layoutX="230.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#btnMultiplyOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="X">
+      <Button fx:id="btnMultiply" layoutX="255.0" layoutY="333.0" mnemonicParsing="false" onMouseClicked="#btnMultiplyOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="X">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -72,7 +72,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn4" layoutX="18.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#btn4OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="4">
+      <Button fx:id="btn4" layoutX="43.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#btn4OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="4">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -80,7 +80,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn5" layoutX="90.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#btn5OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="5">
+      <Button fx:id="btn5" layoutX="115.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#btn5OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="5">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -88,7 +88,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn6" layoutX="156.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#btn6OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="6">
+      <Button fx:id="btn6" layoutX="181.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#btn6OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="6">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -96,7 +96,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnSubstract" layoutX="230.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#btnSubstractOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="-">
+      <Button fx:id="btnSubstract" layoutX="255.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#btnSubstractOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="-">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -104,7 +104,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn1" layoutX="18.0" layoutY="458.0" mnemonicParsing="false" onMouseClicked="#btn1OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="1">
+      <Button fx:id="btn1" layoutX="43.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#btn1OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="1">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -112,7 +112,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn2" layoutX="90.0" layoutY="458.0" mnemonicParsing="false" onMouseClicked="#btn2OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="2">
+      <Button fx:id="btn2" layoutX="115.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#btn2OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="2">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -120,7 +120,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn3" layoutX="156.0" layoutY="458.0" mnemonicParsing="false" onMouseClicked="#btn3OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="3">
+      <Button fx:id="btn3" layoutX="181.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#btn3OnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="3">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -128,7 +128,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnAddition" layoutX="230.0" layoutY="458.0" mnemonicParsing="false" onMouseClicked="#btnAdditionOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="+">
+      <Button fx:id="btnAddition" layoutX="255.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#btnAdditionOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="+">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -136,7 +136,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnDecimal" layoutX="156.0" layoutY="517.0" mnemonicParsing="false" onMouseClicked="#btnDecimalOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text=".">
+      <Button fx:id="btnDecimal" layoutX="181.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#btnDecimalOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text=".">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -144,7 +144,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnEqual" layoutX="230.0" layoutY="517.0" mnemonicParsing="false" onMouseClicked="#btnEqualOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="=">
+      <Button fx:id="btnEqual" layoutX="255.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#btnEqualOnMouseClicked" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50px;" text="=">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -152,7 +152,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn0" layoutX="19.0" layoutY="517.0" mnemonicParsing="false" onMouseClicked="#btnZeroOnMouseClicked" prefHeight="50.0" prefWidth="118.0" style="-fx-background-radius: 50px;" text="0">
+      <Button fx:id="btn0" layoutX="44.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#btnZeroOnMouseClicked" prefHeight="50.0" prefWidth="118.0" style="-fx-background-radius: 50px;" text="0">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -160,12 +160,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="txtShowPlace" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="22.0" layoutY="11.0" prefHeight="224.0" prefWidth="249.0" style="-fx-border-color: black;" textAlignment="RIGHT">
+      <Label fx:id="txtShowPlace" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="47.0" layoutY="13.0" prefHeight="224.0" prefWidth="249.0" style="-fx-border-color: black;" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
       </Label>
-      <Label fx:id="lblAnswer" alignment="CENTER_RIGHT" layoutX="22.0" layoutY="143.0" prefHeight="37.0" prefWidth="249.0">
+      <Label fx:id="lblAnswer" alignment="CENTER_RIGHT" layoutX="47.0" layoutY="150.0" prefHeight="37.0" prefWidth="249.0">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
